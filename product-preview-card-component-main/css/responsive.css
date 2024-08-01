@@ -1,0 +1,26 @@
+@media (max-width:450px) {
+   .body{
+   
+    padding: 20px;
+   }
+    section{
+    
+        /* display: flex; */
+        
+        margin-top: 10px;
+        flex-direction: column;
+        width: 300px;
+      }
+      img{
+        width: auto;
+        height: 200px;
+        object-fit: cover;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0px;
+
+      }
+      button{
+        padding-inline: 70px;
+        /* margin-inline: 20px; */
+      }
+}
